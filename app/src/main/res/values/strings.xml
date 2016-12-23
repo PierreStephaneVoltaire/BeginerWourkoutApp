@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Workout for Beginners</string>
+    <string name="stopwatch_activity">Stopwatch</string>
+    <string-array name="prefs_sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="prefs_sex_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string name="title_activity_add_rooutine">Routines</string>
+</resources>
+

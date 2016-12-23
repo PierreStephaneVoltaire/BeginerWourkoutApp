@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_always"
+        app:showAsAction="always"
+        android:orderInCategory="50"
+        android:title="Menu"/>
+
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="10"
+        app:showAsAction="never"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/action_goals"
+        android:orderInCategory="20"
+        app:showAsAction="never"
+        android:title="Goals"/>
+
+    <item
+        android:id="@+id/action_routine"
+        android:orderInCategory="30"
+        app:showAsAction="never"
+        android:title="Progress"/>
+
+    <item
+        android:id="@+id/action_progress"
+        android:orderInCategory="40"
+        app:showAsAction="never"
+        android:title="Progress"/>
+
+    <item
+        android:id="@+id/action_calories"
+        android:orderInCategory="50"
+        app:showAsAction="never"
+        android:title="Calorie Count"/>
+
+    <item
+        android:id="@+id/action_swatch"
+        android:orderInCategory="60"
+        app:showAsAction="never"
+        android:title="Stopwatch"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="70"
+        app:showAsAction="never"
+        android:title="About"/>
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="User Profile">
+
+        <EditTextPreference
+            android:dialogTitle="Enter First Name"
+            android:key="fName"
+            android:title="First Name"/>
+        <EditTextPreference
+            android:dialogTitle="Enter Last Name"
+            android:key="lName"
+            android:title="Last Name"/>
+        <EditTextPreference
+            android:dialogTitle="Enter Your Age"
+            android:key="age"
+            android:inputType="number"
+            android:title="Age"/>
+        <ListPreference
+            android:dialogTitle="Select Sex"
+            android:entries="@array/prefs_sex"
+            android:entryValues="@array/prefs_sex_values"
+            android:title="Sex"
+            android:key="sex"
+            />
+        <EditTextPreference
+            android:dialogTitle="Enter Your Height(CM)"
+            android:key="height"
+            android:inputType="number"
+            android:title="Height"/>
+        <EditTextPreference
+            android:dialogTitle="Enter Your Weight(Lbs)"
+            android:key="weight"
+            android:inputType="number"
+            android:title="Weight"/>
+    </PreferenceCategory>
+</PreferenceScreen>
