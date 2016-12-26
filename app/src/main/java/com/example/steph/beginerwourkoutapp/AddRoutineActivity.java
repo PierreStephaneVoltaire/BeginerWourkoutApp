@@ -52,7 +52,7 @@ public class AddRoutineActivity extends AppCompatActivity {
             if (editTexts[i].getText().toString().trim().length() == 0)
                 editTexts[i].setVisibility(View.GONE);
         }
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 5; i++) {
             final int finalI = i;
             nonEmptyEditTexts[i][0].addTextChangedListener(
                     new TextWatcher() {
